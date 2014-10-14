@@ -1,0 +1,87 @@
+/*
+font weights: 300, 400, 600, 700;
+*/
+
+/* Global elments and classes */
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+input {
+    margin-bottom: 10px;
+    display: block;
+}
+input[type=text] {
+    border: 2px solid #D0D0D0;
+    padding: 5px 10px;
+    font-size: 13px;
+    width: 100%;
+}
+input[type=submit] {
+    background: #008EC1;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+button {
+    color: #fff;
+    background-color: #ECD203;
+    padding: 5px;
+}
+/* END Global elments and classes END */
+
+/* CSS for parent tiers */
+.formContainter {
+    background-color: #F3F3F3;
+    padding: 40px 0px;
+}
+/* END CSS for parent tiers END*/
+
+/* CSS for navbar */
+#navSlide {
+    width: 60%;
+    margin: 0px 20%;
+    padding: 10px 0px;
+}
+#navBar li {
+    display: inline;
+}
+#navBar li a {
+    text-decoration: none;
+    color: #000;
+}
+#navBar li a:hover {
+    text-decoration: underline;
+}
+/* END CSS for navbar END */
+
+/* CSS for form */
+#signUp, #registerForm {
+    width: 20%;
+    margin: 0px 40%;
+    text-align: center;
+}
+/* END CSS for form END */
+
+/* CSS for footer */
+#footer {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+/* END CSS for footer END */
